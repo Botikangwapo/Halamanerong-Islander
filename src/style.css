@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bungee&family=Changa+One:ital@0;1&family=Imperial+Script&family=Krona+One&family=Miniver&family=Momo+Trust+Display&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Parisienne&family=Poppins:ital,wght@0,100;0,500;1,300;1,400;1,500&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Spray+Paint&family=Russo+One&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Sen:wght@400..800&family=Sigmar&family=Zen+Dots&display=swap');
+
+* {
+    font-family: "SN Pro", sans-serif;
+    font-optical-sizing: auto;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+section {
+    transform: translateY(10px);
+    animation: fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0.8;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
